@@ -1,0 +1,6 @@
+Feature,Importance
+amount_difference_pct,0.5198431376321604
+quantity_difference_pct,0.37080112297305123
+freight_pct,0.042334473805882664
+days_po_to_invoice,0.03797771487357996
+total_brands,0.029043550715325724

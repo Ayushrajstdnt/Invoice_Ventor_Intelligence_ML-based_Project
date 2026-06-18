@@ -1,0 +1,26 @@
+{
+    "Linear Regression": {
+        "mae": 24.4,
+        "rmse": 124.4,
+        "r2": 97.0,
+        "cv_mae": 25.46
+    },
+    "Decision Tree Regression": {
+        "mae": 33.34,
+        "rmse": 150.53,
+        "r2": 95.61,
+        "cv_mae": 34.38
+    },
+    "Random Forest Regression": {
+        "mae": 26.99,
+        "rmse": 131.61,
+        "r2": 96.65,
+        "cv_mae": 29.97
+    },
+    "Tuned Random Forest": {
+        "mae": 26.34,
+        "rmse": 137.59,
+        "r2": 96.33,
+        "cv_mae": 28.42
+    }
+}

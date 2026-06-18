@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Models
+*.pkl
+*.joblib
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
