@@ -155,8 +155,6 @@ if selected_model == "🚚 Freight Cost Prediction":
 
         st.success(f"Best Model: {best_model}")
 
-        
-
         if prediction[0] < 50:
             st.success(
                 "🟢 Low Freight Cost\n\nRecommendation: Freight cost appears within normal range."
@@ -471,7 +469,6 @@ else:
                 """)
 
         else:
-
             st.markdown("""
                 - Invoice appears normal
                 - Eligible for streamlined approval
