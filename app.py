@@ -1,4 +1,5 @@
 import json
+import os
 
 import pandas as pd
 import plotly.graph_objects as go
@@ -6,6 +7,8 @@ import streamlit as st
 
 from inference.predict_freight_cost import predict_freight_cost
 from inference.predict_invoice_flag import predict_invoice_flag
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
 # Session State Initialization
@@ -128,7 +131,7 @@ if selected_model == "🚚 Freight Cost Prediction":
         )
         
         # Load model comparison metrics
-        with open("models/freight_metrics.json", "r") as f:
+        with open(os.path.join(PROJECT_ROOT, "models", "freight_metrics.json"), "r") as f:
             metrics = json.load(f)
             
         comparison_df = pd.DataFrame(metrics).T.reset_index()

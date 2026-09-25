@@ -1,7 +1,9 @@
 import joblib
 import pandas as pd
+import os
 
-MODEL_PATH = "models/freight_model.pkl"
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "freight_model.pkl")
 
 
 def load_model(model_path: str = MODEL_PATH):

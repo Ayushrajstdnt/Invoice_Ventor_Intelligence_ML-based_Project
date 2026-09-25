@@ -19,9 +19,9 @@ data/
 *.sqlite
 *.sqlite3
 
-# Models
-*.pkl
-*.joblib
+# Models (keep .pkl tracked — needed for deployment)
+# *.pkl
+# *.joblib
 
 # Logs
 logs/
