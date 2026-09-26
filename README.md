@@ -1,5 +1,7 @@
 # 📊 Vendor Performance Analysis System (ML-Based)
 
+Deployed link : https://invoiceventorintelligenceml-basedproject-cb8vexovjufaafncyjliw.streamlit.app/
+
 ## Project Overview
 
 This project is a Machine Learning-based Vendor Performance Analysis System designed to evaluate vendor behavior, detect invoice risks, and predict freight costs using Python, SQL, SQLite, and Scikit-learn.
