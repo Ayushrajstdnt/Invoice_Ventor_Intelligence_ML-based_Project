@@ -199,7 +199,7 @@ streamlit run app.py
 
 👨‍💻 Author
 
-Pankaj Sharma
+Ayush Raj
 Machine Learning Engineer | Python | SQL | Data Analytics | Streamlit
 
 ---
